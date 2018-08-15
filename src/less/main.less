@@ -1,0 +1,30 @@
+html, body, #root, .wrapper {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    background: #f85859;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        font-size: 19px;  
+        .info {
+            font-size: 1em !important;
+        }  
+    }
+
+}
+
+@import './start-page.less';
+@import './game-page.less';
+@import './ui.less';
+
+
